@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="476A5376-BBA2-EEF4-1CB9-C92D0985737F" name="CLIENTE">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 06:53:05 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idCliente" id="8BD32EB9-AEB1-A181-4659-A6FD8C6A25A6">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 06:53:16 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="FC42869D-AEB9-07E8-EBBD-FBE33674A64E">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 06:53:20 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="FD097119-5F6B-9F57-7C9B-B2DCD75D9873">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 06:53:23 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="C51A2A17-1241-38BC-BE28-C456DF030379">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 06:53:26 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="saldo" id="A658FE2C-39B0-A3D8-B64C-9FB7D3F7D0EF">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 07:03:16 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idRepresentante" id="5C03AB9A-A8AA-12C4-45D4-2150DA587F0A">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 07:16:10 UTC</createdTime>
+<generatorID>B25361A9-E58D-B65D-3190-9C00A06CA93C</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>503E6C00-BE01-8BF5-6B30-A12328DF5352</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D2A75363-CCD8-49AD-317B-D30DFA3C4C0C" name="CLIENTE PK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 06:53:19 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8BD32EB9-AEB1-A181-4659-A6FD8C6A25A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

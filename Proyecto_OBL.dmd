@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Proyecto_OBL" id="0114B9AB-6972-5055-4BBA-60FE636F2C5D" version="3.5">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 05:25:23 UTC</createdTime>
+<ownerDesignName>OBL_WalterRivera</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0114B9AB-6972-5055-4BBA-60FE636F2C5D</designId>
+</OSDM_Design>

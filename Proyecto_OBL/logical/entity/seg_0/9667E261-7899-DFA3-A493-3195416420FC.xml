@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9667E261-7899-DFA3-A493-3195416420FC" name="REPRESENTANTE_VENTAS">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 05:43:59 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idRepresentante" id="503E6C00-BE01-8BF5-6B30-A12328DF5352">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 05:44:40 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="CEC3AAC3-C826-A015-6FB1-EF91AF70A3C0">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 05:44:56 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="1303982E-5E80-AAAE-434F-2B8D5EA08ECC">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 05:45:08 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="F26CDF02-F8F7-D8E9-0366-672C8D310FE4">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 05:45:14 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comision" id="D2D2E6C7-589A-D19E-A614-A31B1FF0EF4D">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 05:45:23 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idSupervisor" id="C0D0EEE6-DE4B-31BD-9628-DFBB1B3EB42B">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-12 02:51:29 UTC</createdTime>
+<generatorID>99008BCC-E1BF-DC1F-A260-70A2A78F033D</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>503E6C00-BE01-8BF5-6B30-A12328DF5352</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idTipoComision" id="856B97AA-1AEE-5075-181E-59D5B6DD3090">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-12 14:10:03 UTC</createdTime>
+<generatorID>3EEBA474-66EB-071E-886B-47A1BCEC4631</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BB6D8275-205A-33EC-1611-FE7E3518257C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idRolRepresentante" id="FFC965E3-B4B2-0A62-9840-EC0C16481425">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-12 14:42:24 UTC</createdTime>
+<generatorID>92569B4F-F361-035B-EF48-062CAFC6905F</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6E0674BD-AD10-08B2-01F3-B94A13BA4520</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F68D3180-8D88-5958-E84D-44A44DC74327" name="REPRESENTANTE_VENTAS PK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 05:44:47 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>503E6C00-BE01-8BF5-6B30-A12328DF5352</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

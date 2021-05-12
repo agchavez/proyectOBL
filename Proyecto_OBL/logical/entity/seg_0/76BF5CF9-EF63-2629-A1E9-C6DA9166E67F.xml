@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76BF5CF9-EF63-2629-A1E9-C6DA9166E67F" name="PRODUCTO">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 07:11:07 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idProducto" id="88297588-28D4-A31A-25B0-FC7B8CF2E91C">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 07:11:12 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="4650E597-E229-0070-084C-8BAB4268EC66">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 07:11:18 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="290BB2E8-D80C-1102-DE69-CD2A88CEA07A">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 07:11:35 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="5FAAC7DA-1A16-1B69-3FCD-C2E90BE73E62">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 07:11:41 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tamaño" id="5310F911-2947-3819-D25D-32E1607FCEAB">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 07:11:43 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idInventario" id="07B35B0F-195C-FDDB-AC20-1E0079ED25D0">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 07:19:18 UTC</createdTime>
+<generatorID>E5129A3E-6054-E2E4-413B-340E0E2CD519</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<referedAttribute>BA7D04C8-D4C5-5A88-AA04-5B34813ED853</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F65AA3BE-F681-E072-046C-7618661E2EB1" name="PRODUCTO PK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 07:11:17 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88297588-28D4-A31A-25B0-FC7B8CF2E91C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

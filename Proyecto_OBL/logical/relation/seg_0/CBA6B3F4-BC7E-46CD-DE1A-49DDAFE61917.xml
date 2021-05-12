@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="CBA6B3F4-BC7E-46CD-DE1A-49DDAFE61917">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-08 07:20:08 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<sourcePk>068E0235-1F7B-471B-B3DF-7B6F58E476D6</sourcePk>
+<targetPk>C2AC6ED8-0F17-8C49-B53C-EF01FD956570</targetPk>
+<dominantRole>CD2B99AF-BE60-486A-286E-431750A93CAB</dominantRole>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>pertenece a</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B8222C6E-9AE6-AE0E-63A2-971A71610384</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CD2B99AF-BE60-486A-286E-431750A93CAB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
