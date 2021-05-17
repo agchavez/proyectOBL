@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="email" id="CEC3AAC3-C826-A015-6FB1-EF91AF70A3C0">
@@ -32,7 +34,9 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="1303982E-5E80-AAAE-434F-2B8D5EA08ECC">
@@ -42,7 +46,9 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="telefono" id="F26CDF02-F8F7-D8E9-0366-672C8D310FE4">
@@ -52,8 +58,11 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="comision" id="D2D2E6C7-589A-D19E-A614-A31B1FF0EF4D">
 <createdBy>Walter Rivera H</createdBy>
@@ -62,7 +71,9 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="idSupervisor" id="C0D0EEE6-DE4B-31BD-9628-DFBB1B3EB42B">
@@ -75,7 +86,9 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>503E6C00-BE01-8BF5-6B30-A12328DF5352</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="idTipoComision" id="856B97AA-1AEE-5075-181E-59D5B6DD3090">
@@ -88,7 +101,9 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>BB6D8275-205A-33EC-1611-FE7E3518257C</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="idRolRepresentante" id="FFC965E3-B4B2-0A62-9840-EC0C16481425">
@@ -101,7 +116,8 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>6E0674BD-AD10-08B2-01F3-B94A13BA4520</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

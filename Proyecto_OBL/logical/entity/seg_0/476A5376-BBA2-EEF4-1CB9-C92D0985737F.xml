@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="FC42869D-AEB9-07E8-EBBD-FBE33674A64E">
@@ -32,7 +34,9 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="email" id="FD097119-5F6B-9F57-7C9B-B2DCD75D9873">
@@ -42,7 +46,9 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="telefono" id="C51A2A17-1241-38BC-BE28-C456DF030379">
@@ -52,8 +58,11 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="saldo" id="A658FE2C-39B0-A3D8-B64C-9FB7D3F7D0EF">
 <createdBy>Walter Rivera H</createdBy>
@@ -62,7 +71,9 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="idRepresentante" id="5C03AB9A-A8AA-12C4-45D4-2150DA587F0A">
@@ -75,7 +86,9 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>503E6C00-BE01-8BF5-6B30-A12328DF5352</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

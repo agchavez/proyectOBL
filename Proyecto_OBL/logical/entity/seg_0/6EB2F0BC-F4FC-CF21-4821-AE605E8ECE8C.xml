@@ -26,7 +26,8 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>666EDDC8-0182-1C67-3CD1-01146453866B</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

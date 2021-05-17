@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ubicacion" id="71A23339-D556-FBB1-DDDE-5D0D7C9AB72B">
@@ -32,7 +34,9 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ciudad" id="681AAFF5-D6A7-CF42-3FCA-4CFC1FCBB98F">
@@ -42,7 +46,9 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="codigoPostal" id="98B37717-2835-5D8D-82B2-460C3AE23546">
@@ -52,8 +58,11 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="idRepresentante" id="46DB659B-2AB3-7EAA-5F9A-CF9D0C88A660">
 <createdBy>Walter Rivera H</createdBy>
@@ -64,7 +73,9 @@
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
 <referedAttribute>503E6C00-BE01-8BF5-6B30-A12328DF5352</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

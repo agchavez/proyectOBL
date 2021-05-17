@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="006F3291-B502-E317-A931-6D6649B71C0A">
@@ -32,7 +34,9 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="descripcion" id="1774BEB9-7450-DE17-FDD5-FC1AE47A1C94">
@@ -43,7 +47,9 @@
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

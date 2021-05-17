@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="B8C09DEA-99E8-FE4A-EC19-CBEF02F17982">
@@ -32,7 +34,9 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="numeroJugadores" id="4F8D6931-DFAE-53EF-D4B1-44BF9B4D1102">
@@ -42,7 +46,9 @@
 <engineerTo>
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="descuento" id="F6C6607B-2E23-C926-AC61-5F6F687F74F9">
@@ -53,8 +59,11 @@
 <item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="idCategoriaEquipo" id="785A6324-7E13-1348-8E7A-683C6DF57F7E">
 <createdBy>Walter Rivera H</createdBy>
@@ -66,7 +75,8 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>4A384A55-DF64-03AD-98C4-1484769E143F</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
