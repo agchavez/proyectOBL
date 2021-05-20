@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="324CF05D-FFF4-69DF-9205-F1E4EFE67AEA" name="HistoricoPrecios">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>83891E96-E312-0F43-5BB7-DF5A741C7AF5</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Productos_idProducto" id="705C1CC4-BCB7-4B20-D3D5-385E83C3E000">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>DFCDC282-48EF-5EE3-5BED-1EA5CCCE1EBE</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90C19FAD-E4A7-1069-BCFE-45F4D58664F7" referredColumn="9A89D05E-5D36-A2B6-C3CD-A7863EBE30D9"/>
+</associations>
+</Column>
+<Column name="fechaInicio" id="A793312A-9D55-A828-AEBB-FEBB9D3B2ABE">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>8BC1AA77-69BA-1B28-BD50-AC8B97F6FA50</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaInicio" id="D72EACBA-B5BE-5F39-60DD-AEACA973C960">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>F5CC3529-6FE4-6C5C-7B04-96DAAA38DAF5</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precioVenta" id="95FA54EF-4EC0-9BC4-A75A-4822D2B3C3D5">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>F0E3B7CE-72DD-2AE3-9DC2-438056EBA786</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDFCF12A-C88A-FA00-2B42-F63C5C917CE9" name="HistoricoPrecios_PK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>5204E41B-B972-25DB-C55B-F415D41D0860</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A793312A-9D55-A828-AEBB-FEBB9D3B2ABE"/>
+<colUsage columnID="705C1CC4-BCB7-4B20-D3D5-385E83C3E000"/>
+<colUsage columnID="D72EACBA-B5BE-5F39-60DD-AEACA973C960"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4334291A-CA73-F8AB-3784-C46D5F696F9D" name="HistoricoPrecios_Productos_FK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:43 UTC</createdTime>
+<generatorID>E4AC0D01-357E-7238-D6B4-165B0A634BA3</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="705C1CC4-BCB7-4B20-D3D5-385E83C3E000"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

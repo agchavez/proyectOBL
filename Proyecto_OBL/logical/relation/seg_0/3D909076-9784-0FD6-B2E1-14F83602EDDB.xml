@@ -4,11 +4,11 @@
 <createdTime>2021-05-11 15:30:05 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <sourcePk>D2A75363-CCD8-49AD-317B-D30DFA3C4C0C</sourcePk>
 <identifying>true</identifying>
-<nameOnSource>recibe entrega en</nameOnSource>
+<nameOnSource>recibe en</nameOnSource>
 <nameOnTarget>asignada a</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>

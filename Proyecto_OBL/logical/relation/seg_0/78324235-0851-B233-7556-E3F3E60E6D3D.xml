@@ -1,20 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="C6958AEB-7A2E-DEF2-3946-5A4708BCFC43">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_30" directorySegmentName="seg_0" id="78324235-0851-B233-7556-E3F3E60E6D3D">
 <createdBy>Walter Rivera H</createdBy>
-<createdTime>2021-05-08 07:17:40 UTC</createdTime>
+<createdTime>2021-05-20 12:15:37 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <targetTransferable>false</targetTransferable>
-<sourcePk>D2A75363-CCD8-49AD-317B-D30DFA3C4C0C</sourcePk>
+<sourcePk>AEBF1936-463B-7C8E-CF66-E412A4C4F3CC</sourcePk>
 <identifying>false</identifying>
 <nameOnSource>realiza</nameOnSource>
-<nameOnTarget>ordenado por</nameOnTarget>
+<nameOnTarget>hecho por</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>476A5376-BBA2-EEF4-1CB9-C92D0985737F</sourceEntity>
+<sourceEntity>6EB2F0BC-F4FC-CF21-4821-AE605E8ECE8C</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>CA5E1239-B95E-80E5-1EBA-766842B5E12D</targetEntity>
 <transferable>true</transferable>

@@ -276,15 +276,15 @@
 			</domain>
 		</domains>
 		<constraints>
-			<pk value="{table}_PK"/>
-			<fk value="{child}_{parent}_FK"/>
+			<pk value="{table abbr}_PK"/>
+			<fk value="{child abbr}_{parent}_FK"/>
 			<ck value="{table}_CK"/>
-			<un value="{table}_{column}_UN"/>
+			<un value="{table abbr}_{column}_UN"/>
 			<idx value="{table}_{column}_IDX"/>
 			<automatic_idx value="{table}_{column}_IDX"/>
 			<colck value="CK_{table}_{column}"/>
 			<colnnc value="NNC_{table abbr}_{column}"/>
-			<column_foreign_key value="{ref table}_{ref column}"/>
+			<column_foreign_key value="{ref table abbr}_{ref column}"/>
 			<ui value="{entity} PK"/>
 			<relation_attribute value="{ref entity}_{ref attribute}"/>
 			<surrogate_key value="{table abbr}_PK"/>
@@ -292,6 +292,7 @@
 			<discriminator_col value="{table abbr}_TYPE"/>
 		</constraints>
 		<glossaries>
+			<glossary_file value="C:\Users\equipo 3\Documents\Cursos\Oracle Academy\Base de datos\Módulo 1 - Foundations\Proyecto\Github\Documentacion\OBL_Glosario.glossary"/>
 		</glossaries>
 	</naming_standard_rules>
 	<comparemapping>
@@ -299,7 +300,7 @@
 	<engineering_params>
 		<delete_without_origin value="false"/>
 		<engineer_coordinates value="true"/>
-		<engineer_generated value="false"/>
+		<engineer_generated value="true"/>
 		<show_engineering_intree value="false"/>
 		<apply_naming_std value="true"/>
 		<use_pref_abbreviation value="true"/>
@@ -391,7 +392,7 @@
 	<model_compare_storage_props_filter>
 	</model_compare_storage_props_filter>
 	<naming_options>
-		<model_options objectid="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4">
+		<model_options objectid="D6D24C63-4B35-D350-1ED8-9179399487A6">
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Column" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.TableView" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />

@@ -36,8 +36,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ciudad" id="681AAFF5-D6A7-CF42-3FCA-4CFC1FCBB98F">
 <createdBy>Walter Rivera H</createdBy>
@@ -48,8 +49,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="codigoPostal" id="98B37717-2835-5D8D-82B2-460C3AE23546">
 <createdBy>Walter Rivera H</createdBy>
@@ -91,6 +93,18 @@
 <usedAttributes>
 <attributeRef>61DF00DF-73F9-C9C0-AEE2-FE62CF26E772</attributeRef>
 <attributeRef>46DB659B-2AB3-7EAA-5F9A-CF9D0C88A660</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B161B7B0-F3F3-72C7-495B-0F8EB8516C3C" name="DRE_CODIGOPOSTAL_UK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-19 21:29:11 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<newElementsIDs>98B37717-2835-5D8D-82B2-460C3AE23546</newElementsIDs>
+<usedAttributes>
+<attributeRef>98B37717-2835-5D8D-82B2-460C3AE23546</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -41,7 +41,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="HoraInicio" id="F5CC3529-6FE4-6C5C-7B04-96DAAA38DAF5">
+<Attribute name="horaInicio" id="F5CC3529-6FE4-6C5C-7B04-96DAAA38DAF5">
 <createdBy>Walter Rivera H</createdBy>
 <createdTime>2021-05-11 19:46:25 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
@@ -62,8 +62,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT042</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

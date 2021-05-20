@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<cwd_glossary name="Proyecto_OBL" description="generated from logical model of design Proyecto_OBL" id="5FE07B53-60CF-349C-2CBA-E77DD61FA429" incomplete_modifiers="true" >
+
+   <glossaryWord name="CATEGORIA_EQUIPO" plural="CategoriaEquipos" abbreviation="CEO" alt_abbreviation="" id="EF963779-8236-A0C5-FA17-9A7FA87075DE" import_id="" description="" />
+   <glossaryWord name="CATEGORIA_PRODUCTO" plural="CategoriaProductos" abbreviation="CPO" alt_abbreviation="" id="31E52000-6C15-7D2B-BF24-FE38945025E5" import_id="" description="" />
+   <glossaryWord name="CLIENTE" plural="Clientes" abbreviation="CTE" alt_abbreviation="" id="A2B7B6CF-8E71-C1EB-B1E2-A7AE21A0055D" import_id="" description="" />
+   <glossaryWord name="CTE_EMAIL_UK" plural="" abbreviation="" alt_abbreviation="" id="DF84339C-A57E-07B3-2583-3CF5E0C431D0" import_id="" description="" />
+   <glossaryWord name="CTE_TELEFONO_UK" plural="" abbreviation="" alt_abbreviation="" id="CC2FA9F5-E43A-A81B-636F-AEF244C66C45" import_id="" description="" />
+   <glossaryWord name="DCE_CODIGOPOSTAL_UK" plural="" abbreviation="" alt_abbreviation="" id="E48C3761-103C-54B7-8721-177826F3559E" import_id="" description="" />
+   <glossaryWord name="DETALLE_PEDIDO" plural="DetallePedidos" abbreviation="DPO" alt_abbreviation="" id="6591EEC9-1CE3-76D9-3BD5-77BA75C0A599" import_id="" description="" />
+   <glossaryWord name="DIRECCION_CLIENTE" plural="DireccionesClientes" abbreviation="DCE" alt_abbreviation="" id="4CC30DBB-3D25-0900-4E46-EB895F56E909" import_id="" description="" />
+   <glossaryWord name="DIRECCION_REPRESENTANTE" plural="DireccionRepresentantes" abbreviation="DRE" alt_abbreviation="" id="4EB093B4-AF63-EEC0-6B05-15DB0B4A1DFF" import_id="" description="" />
+   <glossaryWord name="DRE_CODIGOPOSTAL_UK" plural="" abbreviation="" alt_abbreviation="" id="D8D9D4CB-B08D-5148-284E-A4D5576DEBD9" import_id="" description="" />
+   <glossaryWord name="EQUIPO" plural="Equipos" abbreviation="EQO" alt_abbreviation="" id="B61C0499-55CE-463A-58C7-2F4C4AA6F354" import_id="" description="" />
+   <glossaryWord name="HISTORICO_PRECIOS" plural="HistoricoPrecios" abbreviation="HPS" alt_abbreviation="" id="157A8C2B-F94C-C896-8928-C2AF1DB6329C" import_id="" description="" />
+   <glossaryWord name="INVENTARIO" plural="Inventarios" abbreviation="IVO" alt_abbreviation="" id="217F1B52-66A7-E46A-3399-22D9E9EB3EA6" import_id="" description="" />
+   <glossaryWord name="PEDIDO" plural="Pedidos" abbreviation="PDO" alt_abbreviation="" id="3DA48162-8577-ED75-899E-8180E77E1738" import_id="" description="" />
+   <glossaryWord name="PRODUCTO" plural="Productos" abbreviation="PRO" alt_abbreviation="" id="D389A476-B195-403C-71EC-6D1FEFF0F8BE" import_id="" description="" />
+   <glossaryWord name="PROVEEDOR" plural="Proveedores" abbreviation="PVR" alt_abbreviation="" id="0F2351E9-B90F-0B0E-BDD2-8DF57106F168" import_id="" description="" />
+   <glossaryWord name="PROVEEDOR_INVENTARIO" plural="ProveedorInventario" abbreviation="PIO" alt_abbreviation="" id="B4482560-DEF7-FEC3-5C15-F498AB8AC464" import_id="" description="" />
+   <glossaryWord name="PVR_EMAIL_UK" plural="" abbreviation="" alt_abbreviation="" id="D9807B7A-8862-2978-20FC-B0695A4C1023" import_id="" description="" />
+   <glossaryWord name="PVR_TELEFONO_UK" plural="" abbreviation="" alt_abbreviation="" id="4C10A118-3A4F-A2BC-688D-2DA4C8CCCD1B" import_id="" description="" />
+   <glossaryWord name="REPRESENTANTE_EQUIPO" plural="RepresentantesEquipos" abbreviation="RQO" alt_abbreviation="" id="A8E7717B-7D5C-AC1A-F45B-3470742B6993" import_id="" description="" />
+   <glossaryWord name="REPRESENTANTE_VENTAS" plural="RepresentantesVentas" abbreviation="RVS" alt_abbreviation="" id="DB16575B-4179-F29E-6104-3BC18D47FB15" import_id="" description="" />
+   <glossaryWord name="ROL_REPRESENTANTE" plural="RolRepresentantes" abbreviation="RRE" alt_abbreviation="" id="65DBC3C0-1331-1E22-4EBC-10CE8487ADA4" import_id="" description="" />
+   <glossaryWord name="RVS_EMAIL_UK" plural="" abbreviation="" alt_abbreviation="" id="EDFD3FF4-C11A-1E2F-9232-B52C6F9D44AC" import_id="" description="" />
+   <glossaryWord name="RVS_TELEFONO_UK" plural="" abbreviation="" alt_abbreviation="" id="B68C9FA7-2C6F-0270-7559-55E5A3391F37" import_id="" description="" />
+   <glossaryWord name="TIPO_COMISION" plural="TiposComision" abbreviation="TCN" alt_abbreviation="" id="5BE6C215-5EB0-172B-D928-ADF3094C35C5" import_id="" description="" />
+   <glossaryWord name="apellido" plural="" abbreviation="" alt_abbreviation="" id="4BC641F7-4849-BC94-7BE0-6EC23D6D13CA" import_id="" description="" />
+   <glossaryWord name="cantidad" plural="" abbreviation="" alt_abbreviation="" id="91D3621B-F654-50EC-3DAE-B5318CF3192F" import_id="" description="" />
+   <glossaryWord name="ciudad" plural="" abbreviation="" alt_abbreviation="" id="A70BF12B-6448-D3A4-0068-0F9B32E15229" import_id="" description="" />
+   <glossaryWord name="codigoPostal" plural="" abbreviation="" alt_abbreviation="" id="83152BA0-1778-B4AA-1FDB-0656EBF127ED" import_id="" description="" />
+   <glossaryWord name="color" plural="" abbreviation="" alt_abbreviation="" id="43FAB225-B2D8-3985-F71C-00C8014A3796" import_id="" description="" />
+   <glossaryWord name="comision" plural="" abbreviation="" alt_abbreviation="" id="1316CA9D-28DD-BC28-A4AA-43F056663667" import_id="" description="" />
+   <glossaryWord name="costoUnidad" plural="" abbreviation="" alt_abbreviation="" id="E7C4BB6A-846D-8362-FB7F-1F528CC84A19" import_id="" description="" />
+   <glossaryWord name="descripcion" plural="" abbreviation="" alt_abbreviation="" id="EC446E2E-ECD7-6F3E-B80D-BA3B8D4735AD" import_id="" description="" />
+   <glossaryWord name="descuento" plural="" abbreviation="" alt_abbreviation="" id="8EC53803-188A-5E9B-FCA9-0864F4FD6778" import_id="" description="" />
+   <glossaryWord name="email" plural="" abbreviation="" alt_abbreviation="" id="3AC83BF8-6A7F-4EB9-3033-C066D6B55ECE" import_id="" description="" />
+   <glossaryWord name="fecha" plural="" abbreviation="" alt_abbreviation="" id="7EB75080-042A-A537-ECFF-69C37CE3C60B" import_id="" description="" />
+   <glossaryWord name="fechaInicio" plural="" abbreviation="" alt_abbreviation="" id="8506D8B2-F08E-7F82-CF3E-93582D536280" import_id="" description="" />
+   <glossaryWord name="hora" plural="" abbreviation="" alt_abbreviation="" id="954BF447-6096-2353-48B1-7776DB742F14" import_id="" description="" />
+   <glossaryWord name="horaInicio" plural="" abbreviation="" alt_abbreviation="" id="243158FE-D2E3-CF13-BC09-CCB3CC34DEE7" import_id="" description="" />
+   <glossaryWord name="idCategoriaEquipo" plural="" abbreviation="" alt_abbreviation="" primary_word="true" id="8E5A6214-9D8B-96F6-F8FB-C2561EA80167" import_id="" description="" />
+   <glossaryWord name="idCategoriaProducto" plural="" abbreviation="" alt_abbreviation="" primary_word="true" id="B830A1DB-5170-E40B-D38E-D434A531FBFE" import_id="" description="" />
+   <glossaryWord name="idCliente" plural="" abbreviation="" alt_abbreviation="" primary_word="true" id="7A7B6BD1-F0D7-64C5-8336-4ABB521E4E7E" import_id="" description="" />
+   <glossaryWord name="idDireccion" plural="" abbreviation="" alt_abbreviation="" primary_word="true" id="7316938C-398F-4ADE-7769-3175E40D1324" import_id="" description="" />
+   <glossaryWord name="idEquipo" plural="" abbreviation="" alt_abbreviation="" primary_word="true" id="63814644-8D05-20E6-0829-F41B828930D4" import_id="" description="" />
+   <glossaryWord name="idInventario" plural="" abbreviation="" alt_abbreviation="" primary_word="true" id="DA7E30B6-0EBB-AADA-C050-AEBDEFF646CD" import_id="" description="" />
+   <glossaryWord name="idPedido" plural="" abbreviation="" alt_abbreviation="" primary_word="true" id="A14580E0-C535-4758-5462-1F2A11DCF49F" import_id="" description="" />
+   <glossaryWord name="idProducto" plural="" abbreviation="" alt_abbreviation="" primary_word="true" id="6949E1D3-C782-EA4A-6620-4791DE279687" import_id="" description="" />
+   <glossaryWord name="idProveedor" plural="" abbreviation="" alt_abbreviation="" primary_word="true" id="8F648144-D816-7C46-06F1-A57625F06811" import_id="" description="" />
+   <glossaryWord name="idRepresentante" plural="" abbreviation="" alt_abbreviation="" primary_word="true" id="F2DB0263-FC16-63BB-77C2-F7105F81C095" import_id="" description="" />
+   <glossaryWord name="idRolRepresentante" plural="" abbreviation="" alt_abbreviation="" primary_word="true" id="BF2C9CD2-2D11-47A9-574A-6912C09857D7" import_id="" description="" />
+   <glossaryWord name="idTipoComision" plural="" abbreviation="" alt_abbreviation="" primary_word="true" id="98584487-7695-6372-8C1A-F8D52B72E5AC" import_id="" description="" />
+   <glossaryWord name="nombre" plural="" abbreviation="" alt_abbreviation="" id="69F89C90-BD47-A5D4-0242-06AB712B0E1A" import_id="" description="" />
+   <glossaryWord name="numeroJugadores" plural="" abbreviation="" alt_abbreviation="" id="81C5665F-6D17-B4C3-5ACE-EE54B943A14F" import_id="" description="" />
+   <glossaryWord name="precioVenta" plural="" abbreviation="" alt_abbreviation="" id="22AA184A-BAC7-FE70-6013-B8760E6F1D4C" import_id="" description="" />
+   <glossaryWord name="saldo" plural="" abbreviation="" alt_abbreviation="" id="8356362F-9156-61A8-E4F8-5E6D9E733C6D" import_id="" description="" />
+   <glossaryWord name="tamaño" plural="" abbreviation="" alt_abbreviation="" id="4B0A0276-5F0B-EAB8-6A80-4940C51777DB" import_id="" description="" />
+   <glossaryWord name="tarjetaFidelizacion" plural="" abbreviation="" alt_abbreviation="" id="A1669682-9592-DA5D-5B24-295C99CAB05E" import_id="" description="" />
+   <glossaryWord name="telefono" plural="" abbreviation="" alt_abbreviation="" id="5A882891-80B0-5274-E5C6-A604DAB5557B" import_id="" description="" />
+   <glossaryWord name="total" plural="" abbreviation="" alt_abbreviation="" id="459158FA-C856-5394-C353-DF9B20EF7A1F" import_id="" description="" />
+   <glossaryWord name="totalLinea" plural="" abbreviation="" alt_abbreviation="" id="2C0628D0-2407-A8CF-DC6B-44C3A0167052" import_id="" description="" />
+   <glossaryWord name="ubicacion" plural="" abbreviation="" alt_abbreviation="" id="81179B3B-41B6-80C6-BCFD-686197B9B8F4" import_id="" description="" />
+   <glossaryWord name="unidadesDisponibles" plural="" abbreviation="" alt_abbreviation="" id="902C7B3B-5A04-229E-B7EB-E08FCF4D3730" import_id="" description="" />
+   <glossaryWord name="INDIVIDUAL" plural="Individuales" abbreviation="IDL" alt_abbreviation="" id="24AAF2CF-EE3B-ADEF-68C4-8EDF338E5ED0" import_id="" description="" />
+
+</cwd_glossary>

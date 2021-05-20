@@ -4,7 +4,7 @@
 <createdTime>2021-05-08 06:53:05 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2021-05-08 06:53:16 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,49 +32,65 @@
 <createdTime>2021-05-08 06:53:20 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="6019900F-0E16-EAB1-0EE2-0971DA411E4F">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-19 21:58:39 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="email" id="FD097119-5F6B-9F57-7C9B-B2DCD75D9873">
 <createdBy>Walter Rivera H</createdBy>
 <createdTime>2021-05-08 06:53:23 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="telefono" id="C51A2A17-1241-38BC-BE28-C456DF030379">
 <createdBy>Walter Rivera H</createdBy>
 <createdTime>2021-05-08 06:53:26 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="saldo" id="A658FE2C-39B0-A3D8-B64C-9FB7D3F7D0EF">
 <createdBy>Walter Rivera H</createdBy>
 <createdTime>2021-05-08 07:03:16 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="idRepresentante" id="5C03AB9A-A8AA-12C4-45D4-2150DA587F0A">
 <createdBy>Walter Rivera H</createdBy>
@@ -82,7 +98,7 @@
 <generatorID>B25361A9-E58D-B65D-3190-9C00A06CA93C</generatorID>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>503E6C00-BE01-8BF5-6B30-A12328DF5352</referedAttribute>
@@ -98,11 +114,35 @@
 <createdTime>2021-05-08 06:53:19 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>8BD32EB9-AEB1-A181-4659-A6FD8C6A25A6</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3415725C-8A8F-EBED-2CCF-66E36ADBB4D9" name="CTE_EMAIL_UK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-19 19:24:40 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
+</engineerTo>
+<newElementsIDs>FD097119-5F6B-9F57-7C9B-B2DCD75D9873</newElementsIDs>
+<usedAttributes>
+<attributeRef>FD097119-5F6B-9F57-7C9B-B2DCD75D9873</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C40B56C6-1EEC-BA1E-C205-A0AD5DEDB1C3" name="CTE_TELEFONO_UK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-19 20:52:15 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
+</engineerTo>
+<newElementsIDs>C51A2A17-1241-38BC-BE28-C456DF030379</newElementsIDs>
+<usedAttributes>
+<attributeRef>C51A2A17-1241-38BC-BE28-C456DF030379</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

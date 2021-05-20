@@ -4,7 +4,7 @@
 <createdTime>2021-05-11 15:28:32 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2021-05-11 15:28:47 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <generatorID>3D909076-9784-0FD6-B2E1-14F83602EDDB</generatorID>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <referedAttribute>8BD32EB9-AEB1-A181-4659-A6FD8C6A25A6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,37 +46,39 @@
 <createdTime>2021-05-11 15:28:56 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ciudad" id="BAE9C001-6C62-830E-846B-B8D4375C6179">
 <createdBy>Walter Rivera H</createdBy>
 <createdTime>2021-05-12 14:31:27 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="codigoPostal" id="9D5ABF83-5B67-D4B5-13BD-45B7AA2ED7FF">
 <createdBy>Walter Rivera H</createdBy>
 <createdTime>2021-05-12 14:31:39 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>5 CHAR</dataTypeSize>
-<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -85,12 +87,24 @@
 <createdTime>2021-05-11 15:28:54 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>0366E7C8-3F0E-CEB2-DA22-1C0D9478C855</attributeRef>
 <attributeRef>B5FF7113-6E79-C053-1A0E-F726CCC8A58A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2CC3F47C-65C9-AF72-3477-65987070C04B" name="DCE_CODIGOPOSTAL_UK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-19 21:28:42 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
+</engineerTo>
+<newElementsIDs>9D5ABF83-5B67-D4B5-13BD-45B7AA2ED7FF</newElementsIDs>
+<usedAttributes>
+<attributeRef>9D5ABF83-5B67-D4B5-13BD-45B7AA2ED7FF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

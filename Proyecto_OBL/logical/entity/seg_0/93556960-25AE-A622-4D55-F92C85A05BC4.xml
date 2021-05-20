@@ -36,8 +36,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="2672D9CF-E8E3-BE06-8108-CD54425BF644">
 <createdBy>Walter Rivera H</createdBy>
@@ -48,8 +49,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="telefono" id="20FD9609-F14D-6462-536D-3C75971F22DA">
 <createdBy>Walter Rivera H</createdBy>
@@ -73,8 +75,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -88,6 +91,30 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>7ED40A30-C0D9-2C0F-3D1F-3C60F002C3BB</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="49E377C4-2323-84A2-7014-0939BB026388" name="PVR_EMAIL_UK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-19 19:53:27 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<newElementsIDs>C786C3A5-2DE0-B8F8-F0E7-B95433627FB1</newElementsIDs>
+<usedAttributes>
+<attributeRef>C786C3A5-2DE0-B8F8-F0E7-B95433627FB1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="8CFD0B64-A4C4-05DD-29C0-F224FE12EB30" name="PVR_TELEFONO_UK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-19 20:51:58 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<newElementsIDs>20FD9609-F14D-6462-536D-3C75971F22DA</newElementsIDs>
+<usedAttributes>
+<attributeRef>20FD9609-F14D-6462-536D-3C75971F22DA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

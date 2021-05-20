@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E84F4E3D-E971-22E9-45FA-FBA081A15790" name="DireccionRepresentantes">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>BC1ED21E-31FC-FBA9-396D-BE99DFEB1B08</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idDireccion" id="E29A146D-46D7-ED61-3D81-5414E42C7122">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>61DF00DF-73F9-C9C0-AEE2-FE62CF26E772</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacion" id="FB2EEAC1-850D-9EFF-E5B8-75C74EB62B6D">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>71A23339-D556-FBB1-DDDE-5D0D7C9AB72B</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="2CDA7E4E-71F2-6309-F123-164E568BEC55">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>681AAFF5-D6A7-CF42-3FCA-4CFC1FCBB98F</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigoPostal" id="16730E2F-BFA8-6F8B-8F30-EE525F698777">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>98B37717-2835-5D8D-82B2-460C3AE23546</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RepresentantesVentas_idRepresentante" id="E3CED9FA-AAEB-5D24-E371-D1A6E572C367">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>46DB659B-2AB3-7EAA-5F9A-CF9D0C88A660</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBE77B40-516A-BEE2-49E4-DC0ACBCA92B9" referredColumn="0B17562B-316C-D3C3-FAAE-C700FF687D0D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="474C4783-2213-D550-7B3C-7DDC71B0BB6E" name="DireccionRepresentantes_PK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>2184CE18-DE28-5965-DCAF-0E29EA25D259</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E29A146D-46D7-ED61-3D81-5414E42C7122"/>
+<colUsage columnID="E3CED9FA-AAEB-5D24-E371-D1A6E572C367"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB530F80-4921-086C-56BB-5EC6565A6AF8" name="DireccionRepresentantes_codigoPostal_UN">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>B161B7B0-F3F3-72C7-495B-0F8EB8516C3C</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16730E2F-BFA8-6F8B-8F30-EE525F698777"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31AFCB07-E379-8F62-7AEB-0AA677A05144" name="DireccionRepresentantes__IDX">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:43 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8C1AD511-4FAE-51CF-5EA7-F6DB39DAC4B9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E3CED9FA-AAEB-5D24-E371-D1A6E572C367"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54BA96D0-329C-AC63-0475-0110FF52D3DF" name="DireccionRepresentantes_RepresentantesVentas_FK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:43 UTC</createdTime>
+<generatorID>8C1AD511-4FAE-51CF-5EA7-F6DB39DAC4B9</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3CED9FA-AAEB-5D24-E371-D1A6E572C367"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

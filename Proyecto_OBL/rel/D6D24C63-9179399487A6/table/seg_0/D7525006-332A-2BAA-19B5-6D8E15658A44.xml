@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7525006-332A-2BAA-19B5-6D8E15658A44" name="DetallePedidos">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>57101676-F96C-FCFC-2C01-CB213A3D26F0</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pedidos_idPedido" id="49FD582C-9F03-B062-2A83-8A7947B344EA">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>5E7FEA9F-5DB8-B539-D2EF-8B2CD61AB48F</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F938B67-B95F-6A3C-6B0D-CB8A36BA9A10" referredColumn="57FB482E-0AB5-3F23-79AE-C19C2551D61F"/>
+</associations>
+</Column>
+<Column name="Productos_idProducto" id="5A2A9731-E8BA-A916-F7D4-DAD6562FD0F3">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>EE009E57-8F1C-157B-8A2F-4A7D726E1B74</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="854622E6-B8A6-F97B-BAD6-FE73DED9AE2D" referredColumn="9A89D05E-5D36-A2B6-C3CD-A7863EBE30D9"/>
+</associations>
+</Column>
+<Column name="cantidad" id="A2D0498B-1828-2597-D3A8-FBF3DDBC63E6">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>D9A0B106-076E-57CF-CACB-83C27B54346D</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="totalLinea" id="6F6E9A03-4D41-EB3A-FD23-48C833C688B8">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>BBB73989-1F6A-9F32-66FF-1B145426846F</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65E62AA2-B78A-62DF-2199-61B67328BA18" name="DetallePedidos_PK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:42 UTC</createdTime>
+<generatorID>B584470F-BEF9-09F5-D5D3-7E3737D92FA5</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49FD582C-9F03-B062-2A83-8A7947B344EA"/>
+<colUsage columnID="5A2A9731-E8BA-A916-F7D4-DAD6562FD0F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05DE8E18-45C1-F500-B08E-C4375412A595" name="DetallePedidos_Pedidos_FK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:43 UTC</createdTime>
+<generatorID>ED5CFFA3-E715-FEA6-53F9-88DC6B7A8992</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49FD582C-9F03-B062-2A83-8A7947B344EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E0D9167-E130-A085-8308-3D7DB857BA8A" name="DetallePedidos_Productos_FK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:21:43 UTC</createdTime>
+<generatorID>120A6350-9DB4-8E3D-F7D3-7455D54F46E5</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A2A9731-E8BA-A916-F7D4-DAD6562FD0F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

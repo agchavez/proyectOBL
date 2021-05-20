@@ -4,7 +4,7 @@
 <createdTime>2021-05-12 02:12:35 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,13 +22,40 @@
 <generatorID>7465817E-52F4-32F3-D52D-60215ED74F4D</generatorID>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>666EDDC8-0182-1C67-3CD1-01146453866B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idRepresentanteEquipo" id="8685B343-1126-2DF4-0187-4CA17E0DF424">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:08:28 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AEBF1936-463B-7C8E-CF66-E412A4C4F3CC" name="REPRESENTANTE_EQUIPO PK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:08:37 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8685B343-1126-2DF4-0187-4CA17E0DF424</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

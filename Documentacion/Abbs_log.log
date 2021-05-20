@@ -1,0 +1,76 @@
+Oracle SQL Developer Data Modeler Log de Abreviaturas de Nombres.
+Fecha y Hora: 2021-05-20 06:20:45 CST
+Nombre de Diseño: Proyecto_OBL
+
+	Objetos Estandarizados:
+		Tablas: 	0
+		Columnas: 	11
+		Índices: 	4
+		Vistas: 	0
+
+<<<<< COLUMNS >>>>>
+	CategoriaEquipos_idCategoriaEquipo (Equipos) -->                                     CEO_idCategoriaEquipo
+	CategoriaProductos_idCategoriaProducto (Productos) -->                                     CPO_idCategoriaProducto
+	Clientes_idCliente (Pedidos)            -->                                     CTE_idCliente
+	Equipos_idEquipo (RepresentantesEquipos) -->                                     EQO_idEquipo
+	Inventarios_idInventario (ProveedorInventario) -->                                     IVO_idInventario
+	Pedidos_idPedido (DetallePedidos)       -->                                     PDO_idPedido
+	Productos_idProducto (HistoricoPrecios) -->                                     PRO_idProducto
+	Proveedores_idProveedor (ProveedorInventario) -->                                     PVR_idProveedor
+	RepresentantesVentas_idRepresentante (Clientes) -->                                     RVS_idRepresentante
+	RolRepresentantes_idRolRepresentante (RepresentantesVentas) -->                                     RRE_idRolRepresentante
+	TiposComision_idTipoComision (RepresentantesVentas) -->                                     TCN_idTipoComision
+
+<<<<< INDEXES >>>>>
+	DireccionRepresentantes__IDX (DireccionRepresentantes) -->                                     DRE_IDX
+	Equipos__IDX (Equipos)                  -->                                     EQO_IDX
+	Productos__IDX (Productos)              -->                                     PRO_IDX
+	RepresentantesEquipos__IDX (RepresentantesEquipos) -->                                     REO_IDX
+
+<<<<< PRIMARY KEYS & UNIQUE KEYS >>>>>
+	CategoriaEquipos_PK (CategoriaEquipos)  -->                                     CEO_PK
+	CategoriaProductos_PK (CategoriaProductos) -->                                     CPO_PK
+	Clientes_PK (Clientes)                  -->                                     CTE_PK
+	Clientes_email_UN (Clientes)            -->                                     CTE_email_UN
+	Clientes_telefono_UN (Clientes)         -->                                     CTE_telefono_UN
+	DetallePedidos_PK (DetallePedidos)      -->                                     DPO_PK
+	DireccionRepresentantes_PK (DireccionRepresentantes) -->                                     DRE_PK
+	DireccionRepresentantes_codigoPostal_UN (DireccionRepresentantes) -->                                     DRE_codigoPostal_UN
+	DireccionesClientes_PK (DireccionesClientes) -->                                     DCE_PK
+	DireccionesClientes_codigoPostal_UN (DireccionesClientes) -->                                     DCE_codigoPostal_UN
+	Equipos_PK (Equipos)                    -->                                     EQO_PK
+	HistoricoPrecios_PK (HistoricoPrecios)  -->                                     HPS_PK
+	Individuales_PK (Individuales)          -->                                     IDL_PK
+	Inventarios_PK (Inventarios)            -->                                     IVO_PK
+	Pedidos_PK (Pedidos)                    -->                                     PDO_PK
+	Productos_PK (Productos)                -->                                     PRO_PK
+	ProveedorInventario_PK (ProveedorInventario) -->                                     PIO_PK
+	Proveedores_PK (Proveedores)            -->                                     PVR_PK
+	Proveedores_email_UN (Proveedores)      -->                                     PVR_email_UN
+	Proveedores_telefono_UN (Proveedores)   -->                                     PVR_telefono_UN
+	RepresentantesEquipos_PK (RepresentantesEquipos) -->                                     REO_PK
+	RepresentantesVentas_PK (RepresentantesVentas) -->                                     RVS_PK
+	RepresentantesVentas_email_UN (RepresentantesVentas) -->                                     RVS_email_UN
+	RepresentantesVentas_telefono_UN (RepresentantesVentas) -->                                     RVS_telefono_UN
+	RolRepresentantes_PK (RolRepresentantes) -->                                     RRE_PK
+	TiposComision_PK (TiposComision)        -->                                     TCN_PK
+
+<<<<< FOREIGN KEYS >>>>>
+	Clientes_RepresentantesVentas_FK (Clientes) -->                                     CTE_RVS_FK
+	DetallePedidos_Pedidos_FK (DetallePedidos) -->                                     DPO_PDO_FK
+	DetallePedidos_Productos_FK (DetallePedidos) -->                                     DPO_PRO_FK
+	DireccionRepresentantes_RepresentantesVentas_FK (DireccionRepresentantes) -->                                     DRE_RVS_FK
+	DireccionesClientes_Clientes_FK (DireccionesClientes) -->                                     DCE_CTE_FK
+	Equipos_CategoriaEquipos_FK (Equipos)   -->                                     EQO_CEO_FK
+	HistoricoPrecios_Productos_FK (HistoricoPrecios) -->                                     HPS_PRO_FK
+	Individuales_Clientes_FK (Individuales) -->                                     IDL_CTE_FK
+	Pedidos_Clientes_FK (Pedidos)           -->                                     PDO_CTE_FK
+	Productos_CategoriaProductos_FK (Productos) -->                                     PRO_CPO_FK
+	Productos_Inventarios_FK (Productos)    -->                                     PRO_IVO_FK
+	ProveedorInventario_Inventarios_FK (ProveedorInventario) -->                                     PIO_IVO_FK
+	ProveedorInventario_Proveedores_FK (ProveedorInventario) -->                                     PIO_PVR_FK
+	RepresentantesEquipos_Clientes_FK (RepresentantesEquipos) -->                                     REO_CTE_FK
+	RepresentantesEquipos_Equipos_FK (RepresentantesEquipos) -->                                     REO_EQO_FK
+	RepresentantesVentas_RepresentantesVentas_FK (RepresentantesVentas) -->                                     RVS_RVS_FK
+	RepresentantesVentas_RolRepresentantes_FK (RepresentantesVentas) -->                                     RVS_RRE_FK
+	RepresentantesVentas_TiposComision_FK (RepresentantesVentas) -->                                     RVS_TCN_FK

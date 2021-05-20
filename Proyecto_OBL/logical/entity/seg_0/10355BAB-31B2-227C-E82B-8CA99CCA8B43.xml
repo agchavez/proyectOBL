@@ -36,22 +36,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="idProducto" id="C958C25D-A152-FA99-F5B8-5561C13608AF">
-<createdBy>Walter Rivera H</createdBy>
-<createdTime>2021-05-08 07:26:26 UTC</createdTime>
-<generatorID>45E97EF8-DA29-9AA4-2F8D-40ABDEF277AA</generatorID>
-<ownerDesignName>Proyecto_OBL</ownerDesignName>
-<engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
-</engineerTo>
-<referedAttribute>88297588-28D4-A31A-25B0-FC7B8CF2E91C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

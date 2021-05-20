@@ -4,7 +4,7 @@
 <createdTime>2021-05-12 02:18:31 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -16,16 +16,42 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idIndividual" id="B540BE7B-4E83-C5DA-2D44-3C7E78D28A7C">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:07:38 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="tarjetaFidelizacion" id="A44F8C80-D1FC-2D38-E889-64D50B82A8CB">
 <createdBy>Walter Rivera H</createdBy>
 <createdTime>2021-05-12 02:19:31 UTC</createdTime>
 <ownerDesignName>Proyecto_OBL</ownerDesignName>
 <engineerTo>
-<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45AC09F0-1EC0-2094-DBE2-CB4468BAD8F5" name="INDIVIDUAL PK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 12:07:51 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="D6D24C63-4B35-D350-1ED8-9179399487A6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B540BE7B-4E83-C5DA-2D44-3C7E78D28A7C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

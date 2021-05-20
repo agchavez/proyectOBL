@@ -36,8 +36,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="1303982E-5E80-AAAE-434F-2B8D5EA08ECC">
 <createdBy>Walter Rivera H</createdBy>
@@ -48,8 +49,22 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="3F9DC017-F8DC-E785-ACC6-62252998E0A4">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-19 21:26:02 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="telefono" id="F26CDF02-F8F7-D8E9-0366-672C8D310FE4">
 <createdBy>Walter Rivera H</createdBy>
@@ -73,8 +88,10 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="idSupervisor" id="C0D0EEE6-DE4B-31BD-9628-DFBB1B3EB42B">
 <createdBy>Walter Rivera H</createdBy>
@@ -116,6 +133,7 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>6E0674BD-AD10-08B2-01F3-B94A13BA4520</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -132,6 +150,30 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>503E6C00-BE01-8BF5-6B30-A12328DF5352</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="4388AC99-13B5-A441-C5E3-35AB563A5D0C" name="RVS_EMAIL_UK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-19 19:54:44 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<newElementsIDs>CEC3AAC3-C826-A015-6FB1-EF91AF70A3C0</newElementsIDs>
+<usedAttributes>
+<attributeRef>CEC3AAC3-C826-A015-6FB1-EF91AF70A3C0</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F9750DD9-857E-7783-E950-55AC87B6FB05" name="RVS_TELEFONO_UK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-19 20:51:34 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<engineerTo>
+<item key="B4C0A897-CB1C-234F-DBEE-16EBC6508BB4" value="true"/>
+</engineerTo>
+<newElementsIDs>F26CDF02-F8F7-D8E9-0366-672C8D310FE4</newElementsIDs>
+<usedAttributes>
+<attributeRef>F26CDF02-F8F7-D8E9-0366-672C8D310FE4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
