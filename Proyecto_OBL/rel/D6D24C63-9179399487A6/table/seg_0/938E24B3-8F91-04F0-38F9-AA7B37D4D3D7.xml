@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="938E24B3-8F91-04F0-38F9-AA7B37D4D3D7" name="Proveedores">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>93556960-25AE-A622-4D55-F92C85A05BC4</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProveedor" id="7F2FE09E-DAAE-314C-26AC-FFD44B04CBAF">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>7ED40A30-C0D9-2C0F-3D1F-3C60F002C3BB</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Proveedores_idProveedor</notNullConstraintName>
+</Column>
+<Column name="email" id="073743BD-FF6E-4AF4-5573-1CC4574B840D">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>C786C3A5-2DE0-B8F8-F0E7-B95433627FB1</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Proveedores_email</notNullConstraintName>
+</Column>
+<Column name="nombre" id="CD248041-7529-E50C-FADD-E94814108B13">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>2672D9CF-E8E3-BE06-8108-CD54425BF644</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Proveedores_nombre</notNullConstraintName>
+</Column>
+<Column name="telefono" id="54706323-04C6-07F4-3A08-62BDE4D50365">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>20FD9609-F14D-6462-536D-3C75971F22DA</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Proveedores_telefono</notNullConstraintName>
+</Column>
+<Column name="direccion" id="0A0CB81F-EE38-ED42-0ADF-22E786A38551">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>861ECC0C-0101-6B48-DE16-B983DDBF8828</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Proveedores_direccion</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66419B4E-7557-37A5-9F3F-7594E732C41A" name="Proveedores_PK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>EB4445CC-108A-59CC-E5B8-B01CF63927F7</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F2FE09E-DAAE-314C-26AC-FFD44B04CBAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3548287-8EE2-678F-6502-2B4097A7FD10" name="Proveedores_email_UN">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>49E377C4-2323-84A2-7014-0939BB026388</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="073743BD-FF6E-4AF4-5573-1CC4574B840D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86EDB29C-5412-78F8-9F5C-77022F814878" name="Proveedores_telefono_UN">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>8CFD0B64-A4C4-05DD-29C0-F224FE12EB30</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54706323-04C6-07F4-3A08-62BDE4D50365"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

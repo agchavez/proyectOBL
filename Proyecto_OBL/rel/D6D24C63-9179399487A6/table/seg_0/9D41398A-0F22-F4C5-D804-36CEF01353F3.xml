@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D41398A-0F22-F4C5-D804-36CEF01353F3" name="Individuales">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>30D77F18-8D8C-6F42-8A8D-780739EB529F</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Clientes_idCliente" id="133475E8-FD64-EE3E-654C-B229C6F9D43E">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>8BD32EB9-AEB1-A181-4659-A6FD8C6A25A6</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Individuales_Clientes_idCliente</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="E5E65DCE-0B07-8128-D1D7-54B8F5C7537E" referredColumn="DE179232-94EC-13EC-F874-6395050BD34E"/>
+</associations>
+</Column>
+<Column name="idIndividual" id="02C0A201-694C-3126-E633-F8B55C6DDD10">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>B540BE7B-4E83-C5DA-2D44-3C7E78D28A7C</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Individuales_idIndividual</notNullConstraintName>
+</Column>
+<Column name="tarjetaFidelizacion" id="BADC4DF3-8D7D-8BC1-6E44-C08FFDA4B7F3">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>A44F8C80-D1FC-2D38-E889-64D50B82A8CB</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0B7FC74-D547-09A1-8FD9-9ADA6668BC78" name="Individuales_PK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>D2A75363-CCD8-49AD-317B-D30DFA3C4C0C</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="133475E8-FD64-EE3E-654C-B229C6F9D43E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="131E40DE-B5CA-12D2-4DCB-1DF7DF872436" name="Individuales_idIndividual_UN">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>45AC09F0-1EC0-2094-DBE2-CB4468BAD8F5</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02C0A201-694C-3126-E633-F8B55C6DDD10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0181233-6CC3-E29C-E72A-2CB68EED0FB7" name="Individuales_Clientes_FK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>F4BABC78-7D37-AEB7-716B-65D1DFCBD705</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="133475E8-FD64-EE3E-654C-B229C6F9D43E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14633E83-5627-686D-D652-58BE17D5D2B8" name="Pedidos">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>CA5E1239-B95E-80E5-1EBA-766842B5E12D</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPedido" id="25013902-81B6-A760-9F93-52217FB2A63D">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>57C7F1FC-383B-B23D-2979-AF2A69D391BC</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Pedidos_idPedido</notNullConstraintName>
+</Column>
+<Column name="fecha" id="44EDB0C2-7D21-184A-9DCC-421DE180E8AE">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>8A8ADAEA-5E3A-1F9E-D3F8-C14034D7992A</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Pedidos_fecha</notNullConstraintName>
+</Column>
+<Column name="hora" id="29C6CEBF-1015-C8B6-7114-A05AE0BB42CD">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>448BE07E-E4F3-79CD-1D52-056B6E33F66C</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Pedidos_hora</notNullConstraintName>
+</Column>
+<Column name="total" id="E2212D84-7257-26E8-F277-A16FE5818409">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>698B7C7F-62F1-C2C3-3CC4-BC581EE2B6DD</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Pedidos_total</notNullConstraintName>
+</Column>
+<Column name="RepresentantesEquipos_idRepresentanteEquipo" id="16BF4A12-08E1-878F-BF28-9C14D8F18EDD">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>562841BF-1018-A99B-DACB-F1E6BD15AED8</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Pedidos_RepresentantesEquipos_idRepresentanteEquipo</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="88AF35C8-1AB7-32E2-246A-18DCB18AC61D" referredColumn="71C3E72A-6A04-941A-02CE-45C66D4F391F"/>
+</associations>
+</Column>
+<Column name="Individuales_idIndividual" id="E6E922D3-B8B2-1031-4E3F-F7B754119689">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>5BE92016-BB08-5822-7A40-A922B86CA414</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Pedidos_Individuales_idIndividual</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="79E10588-FA71-8F2D-CAB7-28211484D734" referredColumn="02C0A201-694C-3126-E633-F8B55C6DDD10"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3C78D25-1609-C97A-3581-52895AC4CA77" name="Pedidos_PK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>5030F4D4-7762-BEAD-FD7F-6C9972A14790</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25013902-81B6-A760-9F93-52217FB2A63D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCF05F84-B238-4D0D-E203-5637440588F7" name="Pedidos_RepresentantesEquipos_FK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>78324235-0851-B233-7556-E3F3E60E6D3D</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16BF4A12-08E1-878F-BF28-9C14D8F18EDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74937D5C-61A3-CF95-659D-6D949D9CFC77" name="Pedidos_Individuales_FK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>C5D01CE0-FD13-5178-E07B-225E29EE25C3</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6E922D3-B8B2-1031-4E3F-F7B754119689"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

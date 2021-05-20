@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EF620A0-F49A-452C-3EAF-D7938EFB03A2" name="CategoriaProductos">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>10355BAB-31B2-227C-E82B-8CA99CCA8B43</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCategoriaProducto" id="0BE6B914-BF5F-69C2-0AA8-8B3A2CF7C575">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>7B256ADA-80FF-2144-5BE5-8BF362382225</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CategoriaProductos_idCategoriaProducto</notNullConstraintName>
+</Column>
+<Column name="descripcion" id="318F40D9-4E61-33DA-0485-3721159BC427">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>6475B74D-9932-7CB4-9151-6AB588AFC322</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CategoriaProductos_descripcion</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D540375-834A-0314-571A-174D79CD691C" name="CategoriaProductos_PK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>EE7704D0-4131-3F62-731F-A4E204B76D15</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BE6B914-BF5F-69C2-0AA8-8B3A2CF7C575"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

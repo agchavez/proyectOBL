@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B1E39F2D-1D2D-BACF-293C-BD0AF0DCEBF0" containerWithKeyObject="F177CC0C-D4FB-BA64-9BEA-B47D010D921F" localFKIndex="C3CFC135-B79C-D0F2-7684-E1449658F531" name="RepresentantesVentas_TiposComision_FK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>3EEBA474-66EB-071E-886B-47A1BCEC4631</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<referredTableLongName>TiposComision</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3D259558-E98C-9C10-3E4A-6AFBC5244222</referredTableID>
+<keyObject>9A12DB71-CC2E-F569-1FFA-55BC5ADB95AE</keyObject>
+<referredKeyID>9A12DB71-CC2E-F569-1FFA-55BC5ADB95AE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>idTipoComision</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

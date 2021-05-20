@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="79E10588-FA71-8F2D-CAB7-28211484D734" containerWithKeyObject="14633E83-5627-686D-D652-58BE17D5D2B8" localFKIndex="74937D5C-61A3-CF95-659D-6D949D9CFC77" name="Pedidos_Individuales_FK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>C5D01CE0-FD13-5178-E07B-225E29EE25C3</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<referredTableLongName>Individuales</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9D41398A-0F22-F4C5-D804-36CEF01353F3</referredTableID>
+<keyObject>131E40DE-B5CA-12D2-4DCB-1DF7DF872436</keyObject>
+<referredKeyID>131E40DE-B5CA-12D2-4DCB-1DF7DF872436</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idIndividual</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

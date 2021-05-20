@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62B4302B-A90A-060A-E7C1-A836E5A69254" name="Equipos">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>B8222C6E-9AE6-AE0E-63A2-971A71610384</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEquipo" id="01831B80-1AC2-D053-B879-0E914612C303">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>666EDDC8-0182-1C67-3CD1-01146453866B</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Equipos_idEquipo</notNullConstraintName>
+</Column>
+<Column name="nombre" id="EAA66901-4EC7-3F26-436D-71D05A8185F3">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>B8C09DEA-99E8-FE4A-EC19-CBEF02F17982</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Equipos_nombre</notNullConstraintName>
+</Column>
+<Column name="numeroJugadores" id="FDB9FA20-1052-FD26-6AC7-B39E14608A9D">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>4F8D6931-DFAE-53EF-D4B1-44BF9B4D1102</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Equipos_numeroJugadores</notNullConstraintName>
+</Column>
+<Column name="descuento" id="F8CA5E44-65D8-D53D-DF7D-EF6EAAF641A7">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>F6C6607B-2E23-C926-AC61-5F6F687F74F9</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CategoriaEquipos_idCategoriaEquipo" id="BCD8953D-D771-F38A-8AF1-FBCFEEDBC5B6">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>785A6324-7E13-1348-8E7A-683C6DF57F7E</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27D0958E-FC0F-8A94-DEA3-954A36BE7B90" referredColumn="994CFF33-E938-F5AC-0F03-07687A051DB6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="682FF875-B259-9937-379F-4F932B0DF78F" name="Equipos_PK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:04 UTC</createdTime>
+<generatorID>068E0235-1F7B-471B-B3DF-7B6F58E476D6</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01831B80-1AC2-D053-B879-0E914612C303"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70F95745-75DE-1F62-22A2-B2BE382B253C" name="Equipos_CategoriaEquipos_idCategoriaEquipo_IDX">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CBA6B3F4-BC7E-46CD-DE1A-49DDAFE61917</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BCD8953D-D771-F38A-8AF1-FBCFEEDBC5B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="752DE35C-36AC-06F7-8F72-422777C236E7" name="Equipos_CategoriaEquipos_FK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>CBA6B3F4-BC7E-46CD-DE1A-49DDAFE61917</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCD8953D-D771-F38A-8AF1-FBCFEEDBC5B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

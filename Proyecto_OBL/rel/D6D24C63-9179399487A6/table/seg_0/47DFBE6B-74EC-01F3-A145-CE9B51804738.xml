@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47DFBE6B-74EC-01F3-A145-CE9B51804738" name="Clientes">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>476A5376-BBA2-EEF4-1CB9-C92D0985737F</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCliente" id="DE179232-94EC-13EC-F874-6395050BD34E">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>8BD32EB9-AEB1-A181-4659-A6FD8C6A25A6</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Clientes_idCliente</notNullConstraintName>
+</Column>
+<Column name="nombre" id="241C5089-AFD9-C924-FC1C-3FBEDB006D6A">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>FC42869D-AEB9-07E8-EBBD-FBE33674A64E</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Clientes_nombre</notNullConstraintName>
+</Column>
+<Column name="apellido" id="776EB625-CF81-BD38-1F4C-14A14ABC207C">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>6019900F-0E16-EAB1-0EE2-0971DA411E4F</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Clientes_apellido</notNullConstraintName>
+</Column>
+<Column name="email" id="82B87583-1C21-6730-1090-0C984FC371D2">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>FD097119-5F6B-9F57-7C9B-B2DCD75D9873</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Clientes_email</notNullConstraintName>
+</Column>
+<Column name="telefono" id="59A7AEF3-4D5F-DFBB-81C8-9C7D4CC3CF61">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>C51A2A17-1241-38BC-BE28-C456DF030379</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Clientes_telefono</notNullConstraintName>
+</Column>
+<Column name="saldo" id="66B925CF-48D3-03CE-237A-74809A8036CD">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>A658FE2C-39B0-A3D8-B64C-9FB7D3F7D0EF</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Clientes_saldo</notNullConstraintName>
+</Column>
+<Column name="RepresentantesVentas_idRepresentante" id="8E5F28E0-2C5D-D740-A301-5379707DAD08">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>5C03AB9A-A8AA-12C4-45D4-2150DA587F0A</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0616195-C1E7-DE14-74F7-A14D88881955" referredColumn="43551E2C-7213-8CE9-7A44-E78348E13433"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A35C04F-9A42-24B0-8E41-4F6780BF64F5" name="Clientes_PK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>D2A75363-CCD8-49AD-317B-D30DFA3C4C0C</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE179232-94EC-13EC-F874-6395050BD34E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C1D9F84-5463-1DBE-22BE-088E9F6C7E35" name="Clientes_email_UN">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>3415725C-8A8F-EBED-2CCF-66E36ADBB4D9</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82B87583-1C21-6730-1090-0C984FC371D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="723614D3-A3FD-0F47-B994-2BDAE65BBDE4" name="Clientes_telefono_UN">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>C40B56C6-1EEC-BA1E-C205-A0AD5DEDB1C3</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59A7AEF3-4D5F-DFBB-81C8-9C7D4CC3CF61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CB7633F-7E7B-77DD-A89F-B2DA0A52F720" name="Clientes_RepresentantesVentas_FK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>B25361A9-E58D-B65D-3190-9C00A06CA93C</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E5F28E0-2C5D-D740-A301-5379707DAD08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

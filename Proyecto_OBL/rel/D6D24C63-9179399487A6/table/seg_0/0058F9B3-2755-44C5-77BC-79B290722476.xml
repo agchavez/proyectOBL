@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0058F9B3-2755-44C5-77BC-79B290722476" name="ProveedorInventario">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>429F5313-04AC-0014-FC8C-97554F6DC6E0</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Proveedores_idProveedor" id="9B2BAA56-A9AF-73FC-6D2A-7D4567237F13">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>82AC7258-79A2-0112-2F97-ABD874ECC2F6</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ProveedorInventario_Proveedores_idProveedor</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="594A366F-786A-8065-5382-6ECCE409F55E" referredColumn="7F2FE09E-DAAE-314C-26AC-FFD44B04CBAF"/>
+</associations>
+</Column>
+<Column name="Inventarios_idInventario" id="DC229283-852D-9959-8C4B-D16B233CF4AC">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>40F50E22-87C8-B714-499E-13D09FE5EAC1</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ProveedorInventario_Inventarios_idInventario</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="727FD55A-2C0B-5AE1-C82C-C2FC595FD9F3" referredColumn="36E06D21-EF1E-52F8-3228-F67CC47744B0"/>
+</associations>
+</Column>
+<Column name="cantidad" id="CD8DA1E2-17BC-CE01-41FF-5F2E318757C9">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>37060EB8-1FBA-B39B-6B7D-766DC3E62AFC</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ProveedorInventario_cantidad</notNullConstraintName>
+</Column>
+<Column name="costoUnidad" id="DE22616F-F49A-7B90-359C-753D631BA676">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>B65D18DB-4759-B598-0C5B-267233902642</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ProveedorInventario_costoUnidad</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79838FAE-2826-6DE2-C86D-7ED5AF10F2A0" name="ProveedorInventario_PK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>08FA164E-9A51-2A56-1D4E-991C949A0B9C</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B2BAA56-A9AF-73FC-6D2A-7D4567237F13"/>
+<colUsage columnID="DC229283-852D-9959-8C4B-D16B233CF4AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDCFA964-4F99-B824-70DF-5E576EACC66F" name="ProveedorInventario_Proveedores_FK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>2989E2D2-A21E-3770-27D8-D583C1E1410F</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B2BAA56-A9AF-73FC-6D2A-7D4567237F13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A846A9ED-31C7-5333-E08D-88CD4CB3D061" name="ProveedorInventario_Inventarios_FK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>C53CAB82-5054-5C8C-A607-45328DB7E07C</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC229283-852D-9959-8C4B-D16B233CF4AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

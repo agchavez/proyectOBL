@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C3A2403-FFC7-E231-A82E-973FFD562F7B" name="RepresentantesEquipos">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>6EB2F0BC-F4FC-CF21-4821-AE605E8ECE8C</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Clientes_idCliente" id="2F4A6144-4237-4032-4FD5-B0B25D0311F9">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>8BD32EB9-AEB1-A181-4659-A6FD8C6A25A6</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_RepresentantesEquipos_Clientes_idCliente</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="0DAA0E8C-C2A2-61B2-10AA-5F1C83F9138A" referredColumn="DE179232-94EC-13EC-F874-6395050BD34E"/>
+</associations>
+</Column>
+<Column name="Equipos_idEquipo" id="453AEC2D-4EB2-6C11-7FB3-BBCF7BBDB4FF">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>C98A5615-0EEC-57D1-C4D8-E132F43F6BD3</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="187FCA15-3BF9-23D3-A2E9-E7C839DBA4EB" referredColumn="01831B80-1AC2-D053-B879-0E914612C303"/>
+</associations>
+</Column>
+<Column name="idRepresentanteEquipo" id="71C3E72A-6A04-941A-02CE-45C66D4F391F">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>8685B343-1126-2DF4-0187-4CA17E0DF424</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_RepresentantesEquipos_idRepresentanteEquipo</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBCD8956-81AC-AA46-DA03-8CAC62C968F6" name="RepresentantesEquipos_PK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>D2A75363-CCD8-49AD-317B-D30DFA3C4C0C</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F4A6144-4237-4032-4FD5-B0B25D0311F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A4F8FE6-0DC7-F3C6-D42E-B02A7027B857" name="RepresentantesEquipos_idRepresentanteEquipo_UN">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>AEBF1936-463B-7C8E-CF66-E412A4C4F3CC</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71C3E72A-6A04-941A-02CE-45C66D4F391F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8A8B5A6-201B-D0C3-A32D-AB93CF50A8BA" name="RepresentantesEquipos_Equipos_idEquipo_IDX">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7465817E-52F4-32F3-D52D-60215ED74F4D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="453AEC2D-4EB2-6C11-7FB3-BBCF7BBDB4FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C3B6348-5206-61F3-096B-A86B5E489B40" name="RepresentantesEquipos_Clientes_FK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>5A3266B3-61AB-E9A1-91B0-F4E375F6416D</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F4A6144-4237-4032-4FD5-B0B25D0311F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24D182A3-782B-A728-F6B8-477D32C8BDC3" name="RepresentantesEquipos_Equipos_FK">
+<createdBy>Walter Rivera H</createdBy>
+<createdTime>2021-05-20 15:54:05 UTC</createdTime>
+<generatorID>7465817E-52F4-32F3-D52D-60215ED74F4D</generatorID>
+<ownerDesignName>Proyecto_OBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="453AEC2D-4EB2-6C11-7FB3-BBCF7BBDB4FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
